@@ -1,7 +1,7 @@
 # 08 Performing Arithmetic Operations
 
 # We also have magic methods to perform artithemetic operations
-
+# few
 class Point:
     point_color = "Red"
 
