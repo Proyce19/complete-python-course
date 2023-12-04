@@ -8,6 +8,23 @@ from array import array
 # stored in them is constrained. The type is specified at object creation time by using a type code, which is a
 # single character. The following type codes are defined:
 
+# 'b' : Signed integer (char)
+# 'B' : Unsigned integer (unsigned char)
+# 'h' : Signed short integer
+# 'H' : Unsigned short integer
+# 'i' : Signed integer
+# 'I' : Unsigned integer
+# 'l' : Signed long integer
+# 'L' : Unsigned long integer
+# 'f' : Floating point
+# 'd' : Double-precision floating point
+
 
 numbers = array("i", [1, 2, 3])
+print("object")
 print(numbers)
+print('elements using join')
+print('\n'.join(map(str, numbers)))
+print('elements using for loop')
+for item in numbers:
+    print(item)
