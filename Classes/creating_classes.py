@@ -1,5 +1,5 @@
 class Point:
-    # to name classes we use Pascal naming convention for example "ClassName" with each word in upper case
+    # to name classes we use Camelcase naming convention for example "ClassName" with each word in upper case
     # letter and no underscore
     def draw(self):
         # Then we define a function and by convention every function in the class should have at least one

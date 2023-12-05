@@ -21,18 +21,3 @@ manager.greet()
 
 
 # It is better to use multiple Inheritance, with classes small classes that have nothing in common.
-
-
-# This is a better example of multiple inheritance.
-class Flyer:  # here we are setting a classe and creating a feature for flying
-    def fly(self):
-        pass
-
-
-class Swimmer:  # here we are setting a classe and creating a feature for swiming
-    def swim(self):
-        pass
-
-
-class FlyingFish(Flyer, Swimmer):  # So the FlyingFish class can inherit the features fo the Flyer and Swimer classes.
-    pass

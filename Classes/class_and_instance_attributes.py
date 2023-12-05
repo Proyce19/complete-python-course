@@ -9,7 +9,7 @@ class Point:
         self.z = z
 
     def draw(self):
-        print(f"Point coordinates ({self.x}, {self.y}, {self.z})")
+        print(f"Point coordinates ({self.x}, {self.y}, {self.z}) and color {self.point_color}")
 
 
 point_1 = Point(100, 200, 10)

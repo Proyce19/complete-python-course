@@ -3,7 +3,7 @@
 objects of different types to be treated as objects of a common type."""
 
 
-class Bird:
+class Bird():
     def fly(self):
         pass
 

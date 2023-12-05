@@ -11,12 +11,13 @@ class Bird(Animal):
         print("fly")
 
     def eat(self):
-        print("eats with a beak")
+        print("pecks")
 
 
 class Chicken(Bird):
     # The class chicken will inherit all the features of the "Bird" class as well as the "Animal" class
-    pass
+    def fly(self):
+        print("does not fly")
 
 
 chick = Chicken()

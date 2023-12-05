@@ -19,19 +19,5 @@ class Mammal(Animal):  # Here the Mammal class is inheriting the function and at
         print("walk")
 
 
-class Fish(Animal):  # Here the Fish class is inheriting the function and atributes from the Animal class
-    # def eat(self): # And so we do not need to repeat the same function
-    #     print("eat")
-
-    def swim(self):
-        print("swim")
-
-
 m = Mammal()
 m.eat()  # the Mammal class is using the 'eat' funtion from the Animal class
-
-f = Fish()
-print(f.age)  # The Fish class is using the age attribute from the Animal class
-
-# The Animal class is called the Parent or Base class
-# The Fish and Mammal classes are the Child or Sub class

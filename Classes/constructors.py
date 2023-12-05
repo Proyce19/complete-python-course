@@ -14,6 +14,8 @@ class Point:
 
 
 point = Point(100, 200, 10)
+
 print(point.x)
+
 point.draw()
 # When calling the ".draw" method we did not have to supply a parameter because Python does that by default.
