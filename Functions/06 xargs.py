@@ -5,4 +5,4 @@ def multiply(*numbers):
     return total
 
 
-print(multiply(1, 3, 6, 2, 8))
+print(multiply(1, 2, 3, 4, 5))

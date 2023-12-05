@@ -1,18 +1,16 @@
-# 04 sKeyword Arguments
+def increment_a(number, by):
+    return number + by
 
 
-# def increment(number, by):
-#    return number + by
+result = increment_a(2, 1)
+print(result)
 
-
-# result = increment(2, 1)
-# print(result)
 
 # It also works like this
 
 
-def increment(number, by):
+def increment_b(number, by):
     return number + by
 
 
-print(increment(2, by=1))
+print(increment_b(2, by=1))
