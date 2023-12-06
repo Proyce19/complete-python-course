@@ -2,16 +2,16 @@
 python3 -m venv venv or python -m venv venv
 
 # Activate virtual environment 
-- Linux and MacOS
+- Linux and MacOS:
   source venv/bin/activate
-- Microsoft Windows
+- Microsoft Windows:
   venv\Scripts\activate
 
 # Install packages
-- One by one
+- One by one:
   pip install package_name (optional ==, >, >=, <, <= version)
-- If there is requrements file
-- pip install -r requirements_file_name.txt
+- If there is requrements file:
+  pip install -r requirements_file_name.txt
 
 # Deactivate virtual environment
 deactivate
