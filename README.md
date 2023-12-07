@@ -1,5 +1,5 @@
 # Install virtual environment in the root of the project
-python3 -m venv venv or python -m venv venv
+python3 -m venv venv or python -m venv venv (if you have it installed on your machine)
 
 # Activate virtual environment 
 - Linux and MacOS:
@@ -10,7 +10,7 @@ python3 -m venv venv or python -m venv venv
 # Install packages
 - One by one:
   pip install package_name (optional ==, >, >=, <, <= version)
-- If there is requrements file:
+- If there is requirements file:
   pip install -r requirements_file_name.txt
 
 # Deactivate virtual environment
